@@ -1,5 +1,7 @@
-import { defineUserConfig } from "vuepress";
+import { Bundler, defineUserConfig, viteBundler } from "vuepress";
+import { webpackBundler } from "@vuepress/bundler-webpack";
 import { defaultTheme } from "@vuepress/theme-default";
+
 import { searchPlugin } from "@vuepress/plugin-search";
 import { tocPlugin } from "@vuepress/plugin-toc";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
@@ -42,9 +44,11 @@ export default defineUserConfig({
         ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
     ],
 
+    bundler: (process.env.WEBPACK === "1" ? webpackBundler() : viteBundler()) as Bundler,
+
     theme: defaultTheme({
         repo: "naturecodevoid/fwirl",
-        docsDir: "docs/src",
+        docsDir: "web/",
         editLinkText: "Edit this page on GitHub",
         navbar: [
             {

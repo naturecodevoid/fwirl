@@ -1,1 +1,0 @@
-const e={key:"v-71457f70",path:"/docs/features/quick-gamemode-commands.html",title:"Quick Gamemode Commands",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651541679e3,contributors:[{name:"naturecodevoid",email:"44983869+naturecodevoid@users.noreply.github.com",commits:1}]},filePathRelative:"docs/features/quick-gamemode-commands.md"};export{e as data};

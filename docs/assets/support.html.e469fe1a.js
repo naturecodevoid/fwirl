@@ -1,1 +1,0 @@
-const t={key:"v-e7cd6036",path:"/docs/support.html",title:"Support",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651541679e3,contributors:[{name:"naturecodevoid",email:"44983869+naturecodevoid@users.noreply.github.com",commits:1}]},filePathRelative:"docs/support.md"};export{t as data};

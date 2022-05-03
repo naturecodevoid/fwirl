@@ -32,10 +32,7 @@
                 clearInterval(i);
                 const newElement = document.createElement("a");
                 newElement.href = releaseUrl;
-                newElement.classList.add("action-button");
-                newElement.classList.add("secondary");
-                newElement.ariaLabel = "Download";
-                newElement.innerHTML = "Download";
+                newElement.innerHTML = "Download it here";
                 element.parentNode.replaceChild(newElement, element);
             }
         }

@@ -1,1 +1,0 @@
-const e={key:"v-147825fb",path:"/docs/",title:"Introduction",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651541679e3,contributors:[{name:"naturecodevoid",email:"44983869+naturecodevoid@users.noreply.github.com",commits:1}]},filePathRelative:"docs/README.md"};export{e as data};

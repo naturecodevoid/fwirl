@@ -1,1 +1,0 @@
-const e={key:"v-7e8e12ec",path:"/docs/features/op-only-mode.html",title:"OP Only Mode",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651541679e3,contributors:[{name:"naturecodevoid",email:"44983869+naturecodevoid@users.noreply.github.com",commits:1}]},filePathRelative:"docs/features/op-only-mode.md"};export{e as data};

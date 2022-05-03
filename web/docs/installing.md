@@ -1,7 +1,7 @@
 ---
 head:
     - ["script", { src: "/js/fetch.umd.js" }]
-    - ["script", { src: "/js/download.home.js" }]
+    - ["script", { src: "/js/download.installing.js" }]
 ---
 
 # Installing
