@@ -1,0 +1,99 @@
+name: fwirl
+description: Fwirl is a very simple, yet highly configurable plugin for common features.
+website: https://fwirl.naturecodevoid.dev/
+author: naturecodevoid
+#api-version: 1.18
+api-version: 1.15
+version: "${version}"
+main: dev.naturecodevoid.fwirl.Fwirl
+
+commands:
+    fwirl:
+        description: Fwirl's main configuration command.
+        usage: /<command>
+    c:
+        description:
+            Quick gamemode command for creative. If you have the fwirl.gamemode-commands.change-other-players
+            permission, you can specify a player as the first argument to change them into creative.
+        usage: /<command>
+    s:
+        description:
+            Quick gamemode command for survival. If you have the fwirl.gamemode-commands.change-other-players
+            permission, you can specify a player as the first argument to change them into survival.
+        usage: /<command>
+    a:
+        description:
+            Quick gamemode command for adventure. If you have the fwirl.gamemode-commands.change-other-players
+            permission, you can specify a player as the first argument to change them into adventure.
+        usage: /<command>
+    sp:
+        description:
+            Quick gamemode command for spectator. If you have the fwirl.gamemode-commands.change-other-players
+            permission, you can specify a player as the first argument to change them into spectator.
+        usage: /<command>
+
+permissions:
+    fwirl.*:
+        description: Gives access to all fwirl permissions.
+        children:
+            fwirl.config.*: true
+            fwirl.gamemode-commands.*: true
+            fwirl.allow-in-op-only-mode: true
+
+    fwirl.config.*:
+        description: Gives access to all fwirl configuration permissions.
+        children:
+            fwirl.config.run: true
+            fwirl.config.reload-config: true
+            fwirl.config.welcome-message: true
+            fwirl.config.op-only-mode: true
+            fwirl.config.gamemode-commands: true
+    fwirl.config.run:
+        description: Allows running /fwirl
+        default: op
+    fwirl.config.reload-config:
+        description: Allows reloading the config from disk (/fwirl reloadConfig)
+        default: op
+    fwirl.config.welcome-message:
+        description: Allows turning off and on the welcome message (/fwirl welcomeMessage <on/off>)
+        default: op
+    fwirl.config.op-only-mode:
+        description: Allows turning off and on OP only mode (/fwirl opOnlyMode <on/off>)
+        default: op
+    fwirl.config.gamemode-commands:
+        description: Allows turning off and on the quick gamemode commands (/fwirl gamemodeCommands <on/off>)
+        default: op
+
+    fwirl.gamemode-commands.*:
+        description: Gives access to all of fwirl's quick gamemode commands/permissions when they are enabled.
+        children:
+            fwirl.gamemode-commands.creative: true
+            fwirl.gamemode-commands.survival: true
+            fwirl.gamemode-commands.adventure: true
+            fwirl.gamemode-commands.spectator: true
+            fwirl.gamemode-commands.change-other-players: true
+    fwirl.gamemode-commands.creative:
+        description:
+            Gives access to /c when it is enabled. This command allows the user to switch themself into creative.
+        default: true
+    fwirl.gamemode-commands.survival:
+        description:
+            Gives access to /s when it is enabled. This command allows the user to switch themself into survival.
+        default: true
+    fwirl.gamemode-commands.adventure:
+        description:
+            Gives access to /a when it is enabled. This command allows the user to switch themself into adventure.
+        default: true
+    fwirl.gamemode-commands.spectator:
+        description:
+            Gives access to /sp when it is enabled. This command allows the user to switch themself into spectator.
+        default: true
+    fwirl.gamemode-commands.change-other-players:
+        description:
+            Allows changing other people's gamemodes through /<quick gamemode command> <player> when quick gamemode
+            commands are enabled.
+        default: op
+
+    fwirl.allow-in-op-only-mode:
+        description: All players with this permission will be allowed to join while in OP only mode.
+        default: op

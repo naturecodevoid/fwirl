@@ -1,0 +1,27 @@
+opOnlyMode: false
+gamemodeCommands: false
+welcomeMessageEnabled: false
+welcomeMessage: |
+    /c
+    &6&m                                                 &r
+
+    /cThis is the example welcome
+    /cmessage for Fwirl.
+
+    /cUse "/c" to center text,
+    /cand the "&" symbol to
+    /c&badd color.
+
+    /cTo escape "/c", add a
+    /cbacklash before the line:
+    \/creative
+
+    /c<rainbow>MiniMessage is</rainbow>
+    /c<gradient:red:blue>also supported.</gradient>
+
+    /cFor more info, check out the docs
+    /cat &ahttps://fwirl.naturecodevoid.dev
+
+    &6&m                                                 &r
+    /c
+debug: false
