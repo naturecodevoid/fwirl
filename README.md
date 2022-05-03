@@ -26,6 +26,12 @@ Suggestions? Make a [GitHub issue](https://github.com/naturecodevoid/fwirl/issue
 
 See [fwirl.naturecodevoid.dev](https://fwirl.naturecodevoid.dev/)
 
+## Repository structure
+
+-   `src/` - Plugin source
+-   `web/` - Website srouce
+-   `docs/` - Built website for github pages
+
 ## License
 
 This project uses the [MIT license](./LICENSE).
