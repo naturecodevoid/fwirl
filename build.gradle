@@ -85,7 +85,7 @@ shadowJar {
 }
 
 task afterCompile(type: Exec) {
-    commandLine "sh", "'afterBuild.sh", "||", "true'"
+    commandLine "bash", "gradleAfterBuild.sh"
 }
 
 tasks.build.dependsOn tasks.shadowJar
