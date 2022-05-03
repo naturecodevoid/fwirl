@@ -7,8 +7,8 @@ head:
 
 # [Documentation](/docs/)
 
-# [Changelog](https://github.com/naturecodevoiddev/fwirl/blob/main/CHANGELOG.md)
+# [Changelog](https://github.com/naturecodevoid/fwirl/blob/main/CHANGELOG.md)
 
 # [SpigotMC](https://www.spigotmc.org/resources/)
 
-# [GitHub](https://github.com/naturecodevoiddev/fwirl)
+# [GitHub](https://github.com/naturecodevoid/fwirl)

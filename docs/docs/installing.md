@@ -13,7 +13,7 @@ head:
 ## 1. Download the plugin
 
 First you'll want to download the plugin. [Download it here](/download/). If that doesn't work, go to the
-[latest GitHub release](https://github.com/naturecodevoiddev/fwirl/releases/latest) and download the `.jar` file.
+[latest GitHub release](https://github.com/naturecodevoid/fwirl/releases/latest) and download the `.jar` file.
 
 ## 2. Install it onto your server
 

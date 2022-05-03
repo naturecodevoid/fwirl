@@ -6,7 +6,7 @@
     "author": {
         "name": "naturecodevoid"
     },
-    "repository": "https://github.com/naturecodevoiddev/fwirl",
+    "repository": "https://github.com/naturecodevoid/fwirl",
     "scripts": {
         "dev": "PORT=8081 vuepress dev --clean-cache",
         "build": "vuepress build --clean-cache"

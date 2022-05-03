@@ -1,1 +1,0 @@
-const t={key:"v-4cb29dce",path:"/download/",title:"Documentation",lang:"en-US",frontmatter:{pageClass:"download",head:[["script",{src:"/js/fetch.umd.js"}],["script",{src:"/js/download.download.js"}]]},excerpt:"",headers:[],git:{},filePathRelative:"download/README.md"};export{t as data};
