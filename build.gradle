@@ -85,7 +85,7 @@ shadowJar {
 }
 
 task afterCompile(type: Exec) {
-    commandLine "sh", "afterBuild.sh", "||", "true"
+    commandLine "sh", "'afterBuild.sh", "||", "true'"
 }
 
 tasks.build.dependsOn tasks.shadowJar
