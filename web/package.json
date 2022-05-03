@@ -9,7 +9,7 @@
     "repository": "https://github.com/naturecodevoid/fwirl",
     "scripts": {
         "dev": "PORT=8081 vuepress dev --clean-cache",
-        "build": "vuepress build --clean-cache"
+        "build": "vuepress build --clean-cache && bash ./cpDist.sh"
     },
     "license": "MIT",
     "devDependencies": {
