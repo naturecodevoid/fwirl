@@ -8,8 +8,8 @@ jdk:
 
 install: skip
 script:
-    - ./gradlew build
-    - echo sha256 hash: $(sha256sum build/libs/fwirl-*.*.*.jar)
+    - gradle build
+    - bash travisAfterBuild.sh
 
 deploy:
     - provider: releases

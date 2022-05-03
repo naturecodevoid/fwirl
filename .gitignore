@@ -659,7 +659,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-# dist
+dist
 
 # Gatsby files
 .cache/
@@ -668,7 +668,7 @@ typings/
 # public
 
 # vuepress build output
-# .vuepress/dist
+.vuepress/dist
 
 # Serverless directories
 .serverless/
@@ -701,7 +701,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 develop-eggs/
-# dist/
+dist/
 downloads/
 eggs/
 .eggs/
