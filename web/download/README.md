@@ -9,6 +9,6 @@ head:
 
 # [Changelog](https://github.com/naturecodevoid/fwirl/blob/main/CHANGELOG.md)
 
-# [SpigotMC](https://www.spigotmc.org/resources/)
+# [SpigotMC](https://www.spigotmc.org/resources/101801)
 
 # [GitHub](https://github.com/naturecodevoid/fwirl)

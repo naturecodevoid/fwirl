@@ -61,7 +61,7 @@ export default defineUserConfig({
             },
             {
                 text: "SpigotMC",
-                link: "https://www.spigotmc.org/resources/",
+                link: "https://www.spigotmc.org/resources/101801",
             },
         ],
         sidebar: {
